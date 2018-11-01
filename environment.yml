@@ -1,0 +1,13 @@
+name: odsc_py36_1     # default is root
+channels:
+    - conda
+dependencies:     # everything under this, installed by conda
+    - python=3.6
+    - numpy
+    - scipy
+    - pandas
+    - Tensorflow
+    - matplotlib
+    - keras
+    - pip:                # everything under this, installed by pip
+        - gym
